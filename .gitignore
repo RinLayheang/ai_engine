@@ -1,0 +1,31 @@
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+.venv/
+venv/
+env/
+
+# Jupyter
+.ipynb_checkpoints/
+
+# Env / secrets
+.env
+*.env.local
+
+# Data & model artifacts (tracked via .gitkeep only)
+data/*
+!data/.gitkeep
+saved_models/*
+!saved_models/.gitkeep
+
+# ML checkpoints / weights
+*.bin
+*.pt
+*.pth
+*.safetensors
+*.ckpt
+
+# OS
+.DS_Store
+Thumbs.db

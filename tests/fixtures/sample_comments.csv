@@ -1,0 +1,7 @@
+comment_id,text,severity_id,target_id,has_pii,link_flagged,annotator,split,notes
+synthetic-1,"Why is the queue always this slow?",0,0,False,False,test-fixture,train,synthetic — pipeline test only
+synthetic-2,"Sophea is a thief, she stole my money",1,1,False,False,test-fixture,train,synthetic — pipeline test only
+synthetic-3,"ABA are thieves, they stole my money",1,2,False,False,test-fixture,train,synthetic — pipeline test only
+synthetic-4,"I know where you live, watch yourself",2,1,False,False,test-fixture,train,synthetic — pipeline test only
+synthetic-5,"Buy followers cheap, DM me now!!",1,0,False,True,test-fixture,eval,synthetic — pipeline test only
+synthetic-6,"Terrible service, I waited two hours",0,2,False,False,test-fixture,eval,synthetic — pipeline test only
