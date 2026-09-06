@@ -12,7 +12,7 @@ def test_load_split_filters_by_split_column():
     eval_ = load_split(FIXTURE, split="eval")
 
     assert len(train) == 4
-    assert len(eval_) == 2
+    assert len(eval_) == 3
     assert set(train["split"]) == {"train"}
     assert set(eval_["split"]) == {"eval"}
 
